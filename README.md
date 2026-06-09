@@ -7,6 +7,7 @@
 
 一、项目概述
 本项目基于 nudtpaper 文档类，采用 XeLaTeX 编译，支持 Biber 或 BibTeX 参考文献管理。项目结构采用主文件（main.tex）+ 分章节文件（data/ 目录）的组织方式，便于模块化撰写与版本控制。
+
 二、快速开始
 2.1 编译方式
 基础编译命令：
@@ -43,6 +44,7 @@ project/
 │   ├── bstutf8.bst           # BibTeX样式文件
 │   └── refs.bib              # 参考文献数据库
 └── image/                    # 图片资源目录
+
 三、文档类选项详解（\documentclass）
 在 main.tex 顶部修改：
 \documentclass[ttf,anon]{nudtpaper}
